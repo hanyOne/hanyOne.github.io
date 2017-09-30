@@ -1,33 +1,101 @@
+<!DOCTYPE HTML>
 <!--
-	Eventually by HTML5 UP
+	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-
-<!DOCTYPE HTML>
 <html>
 	<head>
 		<title>Hany Ragab</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
 
-			<header id="header">
-				<h2>Hany Ragab</h2>
-				<p>Website under construction</p>
-				<ul class="icons">
-					<li><a href="https://twitter.com/_hanyOne" target="_blank" class="icon fa-twitter fa-lg"><span class="label">Twitter</span></a></li>
-				</ul>
-			</header>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-			<footer id="footer">
-				<ul class="copyright">
-					<li>&copy; HANY RAGAB</li>
-				</ul>
-			</footer>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<nav>
+							<a href="#menu"></a>
+						</nav>
+					</header>
 
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html" class="white_links">Home</a></li>
+							<li><a href="research.html" class="white_links">Research</a></li>
+							<li><a href="misc.html" class="white_links">Misc</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<h2>Hany Ragab</h2>
+							</header>
+							<div>
+								<p>
+									I am a MSc student in the <a href="http://security.di.unimi.it" target="_blank">Computer Security Laboratory</a> at <a href="http://www.unimi.it" target="_blank">University of Milan</a>.
+									</br>
+									I'm currently working as a security research intern in the <a href="http://lca.epfl.ch" target="_blank">Laboratory for Communications and Applications</a> at <a href="http://www.epfl.ch/index.en.html" target="_blank">École Polytechnique Fédérale de Lausanne</a>.
+									</br>
+									In spring 2017 I was the TA of the undergraduate <a href="https://mameli.docenti.di.unimi.it/solab" target="_blank">Laboratory of Operating Systems</a>.
+									In spring 2015 I was working as a cryptography research intern in the Advanced-Systems-Technologies Security team at <a href="http://www.st.com" target="_blank">ST Microelectronics</a>.
+									Until December 2014 I worked in the <a href="http://club.di.unimi.it" target="_blank">Cryptography and Coding Laboratory</a> at University of Milan where I obtained my BSc.
+									</br>
+									I partecipate FTTT in some CTFs with my lab's <a href="https://l4ser.github.io" target="_blank">CTF team</a>.
+									</br>
+									</br>
+									In my research I like to work on system security, secure processors, side-channels, applied cryptography, trusted execution environment, trust zones and operating system. 
+								</p>
+							</div>
+
+							<!-- Footer -->
+							<footer id="footer">
+								<div class="inner">
+									<ul class="icons">
+										<li><a href="https://twitter.com/_hanyOne" target="_blank" class="icon fa-twitter white_links"><span class="label">Twitter</span></a></li>
+										<li><a href="https://github.com/hanyOne" target="_blank" class="icon fa-github white_links"><span class="label">GitHub</span></a></li>
+										<li><a href="https://www.linkedin.com/in/hanyragab" target="_blank" class="icon fa-linkedin white_links"><span class="label">LinkedIn</span></a></li>
+										<li><a href="files/gpg_key.asc" target="_blank" class="icon fa-key white_links" download="gpg_key.asc"><span class="label">GPGKey</span></a></li>
+										<li><a href="#" class="icon fa-envelope white_links" onclick="view_email()"><span class="label" style="color:white">Email</span></a></li>
+										<li><span id="email_div" style="display:none" class="label"><emailcode>python -c "print('hany%sragab%s91%sgmail%scom'%tuple('..@.'))"</emailcode></span></li>
+									</ul>
+									<ul class="copyright">
+										<li>&copy; HANY RAGAB 2017</li>
+									</ul>
+								</div>
+							</footer>
+						</div>
+					</section>
+				</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script>
+				function view_email() {
+				    var x = document.getElementById('email_div');
+				    if (x.style.display === 'none') {
+				        x.style.display = 'block';
+				    } else {
+				        x.style.display = 'none';
+				    }
+				}
+			</script>
 	</body>
 </html>
