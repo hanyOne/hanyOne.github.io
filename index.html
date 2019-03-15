@@ -19,64 +19,100 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<nav>
-							<a href="#menu"></a>
-						</nav>
-					</header>
-
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html" class="white_links">Home</a></li>
-							<li><a href="research.html" class="white_links">Research</a></li>
-							<li><a href="misc.html" class="white_links">Misc</a></li>
-						</ul>
-					</nav>
-
-				<!-- Banner -->
-					<section id="banner" class="major">
+				<!-- Main -->
+				<div id="main" class="alt">
+					<!-- One -->
+					<section id="one">
 						<div class="inner">
 							<header class="major">
-								<h2>Hany Ragab</h2>
+								<h3>Hany Ragab</h3>
 							</header>
-							<div>
+
+                            <div>
 								<p>
-									I am a MSc student in the <a href="http://security.di.unimi.it" target="_blank">Computer Security Laboratory</a> at <a href="http://www.unimi.it" target="_blank">University of Milan</a>.
+									I am a PhD student at VUSec a.k.a. the <a href="https://www.vusec.net" target="_blank">Systems and Network Security Group</a> at <a href="https://www.vu.nl/en" target="_blank">Vrije Universiteit Amsterdam</a>.
 									</br>
-									I'm currently working as a security research scholar in the <a href="https://sslab.gtisc.gatech.edu" target="_blank">Systems Software & Security Laboratory</a> at <a href="http://www.gatech.edu" target="_blank">Georgia Institute of Technology</a>.
-									</br>
-									In summer 2017 I worked as a security research intern in the <a href="http://lca.epfl.ch" target="_blank">Laboratory for Communications and Applications</a> at <a href="http://www.epfl.ch/index.en.html" target="_blank">École Polytechnique Fédérale de Lausanne</a>.
-									In spring 2017 I was the TA of the undergraduate <a href="https://mameli.docenti.di.unimi.it/solab" target="_blank">Laboratory of Operating Systems</a>.
-									In 2015 I was a cryptography research intern in the Advanced-Systems-Technologies Security team at <a href="http://www.st.com" target="_blank">ST Microelectronics</a>.
-									Until December 2014 I worked in the <a href="http://club.di.unimi.it" target="_blank">Cryptography and Coding Laboratory</a> at University of Milan where I obtained my BSc.
-									</br>
-									I partecipate FTTT in some CTFs with my lab's <a href="https://l4ser.github.io" target="_blank">CTF team</a>.
-									</br>
-									</br>
-									In my research I like to work on system security, hardware security, microarchitectural attacks, side-channels, trusted execution environments and operating system. 
+									Previously, I achieved my MSc while working in the <a href="http://security.di.unimi.it" target="_blank">Laboratory of Information and Network Security (LASER)</a> at <a href="http://www.unimi.it" target="_blank">University of Milan</a>. I also worked as a security research scholar at the <a href="https://sslab.gtisc.gatech.edu" target="_blank">Systems Software & Security Laboratory</a> at <a href="http://www.gatech.edu" target="_blank">GaTech</a> and as a security research intern in the <a href="http://lca.epfl.ch" target="_blank">LCA Lab</a> at <a href="http://www.epfl.ch/index.en.html" target="_blank">EPFL</a>. In my research I like to work on system security, hardware security, fuzzing, microarchitectural attacks and operating systems. 
 								</p>
 							</div>
 
-							<!-- Footer -->
-							<footer id="footer">
-								<div class="inner">
-									<ul class="icons">
-										<li><a href="https://twitter.com/hanyrax" target="_blank" class="icon fa-twitter white_links"><span class="label">Twitter</span></a></li>
-										<li><a href="https://github.com/hanyrax" target="_blank" class="icon fa-github white_links"><span class="label">GitHub</span></a></li>
-										<li><a href="https://www.linkedin.com/in/hanyragab" target="_blank" class="icon fa-linkedin white_links"><span class="label">LinkedIn</span></a></li>
-										<li><a href="files/hanyrax_gpg.asc" target="_blank" class="icon fa-key white_links" download="hanyrax_gpg.asc"><span class="label">GPGKey</span></a></li>
-										<li><a href="#" class="icon fa-envelope white_links" onclick="view_email()"><span class="label" style="color:white">Email</span></a></li>
-										<li><span id="email_div" style="display:none" class="label"><emailcode>python -c "print('h%sny%sr%sg%sb.cc'%tuple('a@aa'))"</emailcode></span></li>
-									</ul>
-									<ul class="copyright">
-										<li>&copy; HANY RAGAB 2017</li>
-									</ul>
-								</div>
-							</footer>
+                            <div>
+                                <ul class="icons">
+									<li><a href="https://twitter.com/hanyrax" target="_blank" class="icon fa-twitter white_links"><span class="label">Twitter</span></a></li>
+									<li><a href="https://github.com/hanyrax" target="_blank" class="icon fa-github white_links"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/hanyragab" target="_blank" class="icon fa-linkedin white_links"><span class="label">LinkedIn</span></a></li>
+									<li><a href="files/hanyrax_gpg.asc" target="_blank" class="icon fa-key white_links" download="hanyrax_gpg.asc"><span class="label">GPGKey</span></a></li>
+									<li><a href="#" class="icon fa-envelope white_links" onclick="view_email()"><span class="label" style="color:white">Email</span></a></li>
+									<li><span id="email_div" style="display:none" class="label"><emailcode>python3 -c "print('h%sny.r%sg%sb%s91%sgmail.com'%tuple('aaa.@'))"</emailcode></span></li>
+								</ul>
+                            </div>
+
+							<div class="table-wrapper">
+                                <!-- ################################################################################### -->
+								<h4>PUBLICATIONS</h4>
+								<table>
+									<tbody>
+										<tr>
+											<td>
+												<strong>2015</strong>
+												<br>
+												<h6 class="resources">december</h6>
+											</td>
+											<td>
+												<i class="icon fa-file-pdf-o" aria-hidden="true"></i><a href="files/pub/pbkdf2.pdf" target="_blank">On The Weaknesses Of PBKDF2</a>
+												<br>
+												Andrea Visconti, Simone Bossi, <strong>Hany Ragab</strong>, Alexandro Calò
+												<br>
+												14th International Conference on Cryptology and Network Security (CANS15), Marrakech, Morocco
+												<!--<br><h6 class="resources"><a href="#" class="icon fa-code"></a> | <a href="#" class="icon fa-slideshare"></a></h6> -->
+											</td>
+										</tr>
+									</tbody>
+								</table>
+                                <!-- ################################################################################### -->
+
+                                <!-- ################################################################################### -->
+								<h4>BLOG POSTS</h4>
+							    <div>
+								    <ul>
+								    	<li><a href="http://crypt.coffee/research/luks.html" target="_blank">Dissecting LUKS</a></li>
+								    	<li><a href="http://crypt.coffee/research/pbkdf2.html" target="_blank">Exploiting some weaknesses of PBKDF2</a></li>
+								    </ul>
+							    </div>
+                                <!-- ################################################################################### -->
+
+                                <!-- ################################################################################### -->
+                                <h4>MISC</h4>
+							    <div>
+								    <ul>
+								    	<li>Co-Founded in 2018 <a href="https://www.bsidescairo.com">Security BSides Cairo</a></li>
+								    	<li>Mirroring <a href="pocorgtfo.html">POC||GTFO</a></li>
+								    </ul>
+							    </div>
+                                <!-- ################################################################################### -->
+
+                                <!-- ################################################################################### -->
+								<h4>CONFERENCES</h4>
+							    <div>
+								    <ul>
+								    	<li>2017 SEP 23, Bsides Zurich (Zurich, Switzerland)</li>
+								    	<li>2016 NOV 14-16, CANS16 - 15th International Conference on Cryptology and Network Security (Milan, Italy)</li>
+								    	<li>2016 NOV 3-4, Black Hat Europe (London, UK)</li>
+								    </ul>
+							    </div>
+                                <!-- ################################################################################### -->
+							</div>
 						</div>
 					</section>
+				</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="copyright">
+							<li>&copy; HANY RAGAB 2019</li>
+						</ul>
+					</div>
 				</footer>
 			</div>
 
@@ -98,5 +134,6 @@
 				    }
 				}
 			</script>
+
 	</body>
 </html>
