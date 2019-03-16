@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/hanyrax
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hanyr.ax
+  * I am hanyrax (https://keybase.io/hanyrax) on keybase.
+  * I have a public key ASAA7qAOBECBcl50Wtob-JzxZs2RBXVCAsqrZQ_u4rOoxAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012000d44fd01570e1de2b5932866327838b7dfa77238042e34d48fc8c10557ed9d00a",
+      "host": "keybase.io",
+      "kid": "012000eea00e044081725e745ada1bf89cf166cd9105754202caab650feee2b3a8c40a",
+      "uid": "ff16952abf2f70fe7126eab736dd0219",
+      "username": "hanyrax"
+    },
+    "merkle_root": {
+      "ctime": 1552769171,
+      "hash": "24b89d9777ea087e40a8f5a0e354044533cf44982d3d6f1316fc4268bd2d2b695f768e4730a8f904afe8159727d16f58f2804b2976be1475c969f01ba1344446",
+      "hash_meta": "8cf3865eb8eac5f9e7a162113a9b9d9193974d84966e7b1aaeb92412b36919c2",
+      "seqno": 4964102
+    },
+    "service": {
+      "entropy": "BMq9nhFikTZ6p9qDPQeFN9kQ",
+      "hostname": "hanyr.ax",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.7.3"
+  },
+  "ctime": 1552769265,
+  "expire_in": 504576000,
+  "prev": "e025ce3f5cc5c3fdd26403e54d30bd064b25a7f9b31021e40289647fab6763f1",
+  "seqno": 27,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgAO6gDgRAgXJedFraG/ic8WbNkQV1QgLKq2UP7uKzqMQKp3BheWxvYWTESpcCG8Qg4CXOP1zFw/3SZAPlTTC9Bkslp/mzECHkAolkf6tnY/HEIN7J08uw2+WR7LmNAM7zdAZiRaqQUxI/GbvI3nFFGeztAgHCo3NpZ8RA0vK0uHoXgZaFzAH3tsq0KjSfE4dRy4PJMjHvTriG3aKrjsiwXvxtCjX10cD003hckGuCIbqj/uXWG3Pf7v3tB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEII+ngEuuVK4kpwkZc8aMI06nM8CjPqghc9h2hsdF69zEo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hanyrax
+
+==================================================================
