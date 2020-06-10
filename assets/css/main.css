@@ -2179,6 +2179,10 @@
 
 /* Icon */
 
+	.resource_icon {
+        margin-right: 10px;
+	}
+
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
